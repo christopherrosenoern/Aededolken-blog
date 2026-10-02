@@ -18,5 +18,5 @@ export function findDinner(slug: string) {
 
 /** Serve local images through the Netlify Image CDN. */
 export function cdn(src: string, width: number) {
-  return `/.netlify/images?url=${encodeURIComponent(src)}&w=${width}&fm=webp`
+  return `src`
 }
